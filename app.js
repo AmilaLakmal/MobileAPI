@@ -4,7 +4,7 @@ require("dotenv").config();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-//reometeTest
+//reomoteTest 2
 app.use(cors());
 
 var port = process.env.PORT || 6000;
